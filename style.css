@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0%;
     padding: 0%;
     cursor:context-menu;
-    font-family:'Times New Roman', Times, serif;
+    font-family: roboto slap;
+
 }
 .container1{ 
     padding: 100px 0px 15.5% 0px;
@@ -47,7 +49,6 @@
     width: 690px;
     text-align: left;
     font-size: calc(12px + 1vw);
-    /* font-size: 30px; */
     margin-top: 15px;
 }
 .container2 button{
@@ -105,7 +106,6 @@
     width: 570px;
     text-align: left;
     color: rgb(255, 137, 64);
-    /* font-size: 40px; */
     font-size: calc(39px + 0.5vw);
 }
 .container4 button{
@@ -162,4 +162,113 @@ footer p{
 img{
     width: 600px;
     height: 10%;
+} 
+
+
+@media ( max-width: 921px){
+    .container1{
+        padding: 30px 2px 16.5% 14px;
+    }
+    .container2 img, .container3 img{
+        width: 306px;
+        margin: 1% 8% 5% 5%;
+        height: 427px;
+    }   
+    .container2 p{
+        width: 478px;
+        font-size: 21px;
+    }
+    .container2 h2{
+        width: 322px;
+        font-size: 27px;
+        margin-top: 20%;
+    }
+    .container2 button{
+        width: 81px;
+        font-size: 13px;
+        padding: 6px 1px 6px 2px;
+    }
+    .container3 button{
+        width: 81px;
+        font-size: 13px;
+        padding: 6px 1px 6px 2px;
+    }
+    .container3 h3{
+        width: 308px;
+        font-size: 26px;
+        margin-top: 20%;
+    }
+    .container3 p{
+        width: 412px;
+        font-size: 18px;
+    }
+    .container4{
+        padding: 8% 0% 0% 6%;
+        background-position-y: 0px;
+        height: 341px;
+        background-position-x: -2px;
+    }
+    .container4 h2{
+        width: 570px;
+        font-size: 32px;
+    }
+    .container4 p{
+        width: 447px;
+        font-size: 20px;
+    }
+    .container4 button{
+        font-size: 12px;
+        padding: 10px 15px 10px 20px;
+    }
+    .container5{
+        padding: 8px 282px 22px 102px;
+        width: 773px;
+    }
+}
+@media (max-width: 769px){
+
+    .container1{
+        padding: 31px 2px 16.5% 14px;
+        background-position-x: -15px;
+    }
+    .container1 h1{
+        font-size: 60px;
+    }
+    .container1 p{
+        font-size: 24px;
+    }
+    .container1 button{
+        width: 82px;
+        font-size: 14px;
+        padding: 10px 0px 10px 6px;
+        margin: 100% 0% 100% 0%;
+    }
+    .container2 img, .container3 img{
+        margin: 1% 0% 5% 0%;
+        width: 262px;
+    }
+    .container5{
+        padding: 17px 0px 22px 0px;
+    }
+    .container2 p, .container3 p{
+        font-size: 15px;
+        width: 339px;
+    }
+    .container4{
+        padding: 9% 0% 0% 7%;
+        background-position-y: 0px;
+        height: 316px;
+        background-position-x: 1px;
+    }
+    .container4 p{
+        width: 350px;
+        font-size: 16px;
+    }
+    .container5{
+        padding: 12px 0px 22px 59px;
+        width: 710px;
+    }
+    footer{
+        padding: 0.5% 12% 0.5% 0%;
+    }
 }
