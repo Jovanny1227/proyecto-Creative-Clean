@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css?lang=es&family=Product+Sans|Roboto:400,700');.gb_3d {
+font: 13px/27px Roboto,Arial,sans-serif;
+}
 *{
     margin: 0%;
     padding: 0%;
     cursor:context-menu;
-    font-family: roboto slap;
-
+    font-family: roboto,arial, sans-serif;
 }
 .container1{ 
     padding: 100px 0px 15.5% 0px;
@@ -42,8 +44,7 @@
     text-align: left;
     color: rgb(255, 137, 64);
     font-size: calc(39px + 0.5vw);
-    margin-top: 20%;
-    
+    margin-top: 10%;
 }
 .container2 p{
     width: 690px;
@@ -70,7 +71,7 @@
     text-align: left;
     color: rgb(255, 137, 64);
     font-size: calc(39px + 0.5vw);
-    margin-top: 20%;
+    margin-top: 10%;
 }
 .container3 p{
     width: 690px;
@@ -99,7 +100,7 @@
     width: 690px;
     text-align: left;
     font-size: calc(12px + 1vw);
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .container4 h2{
@@ -121,6 +122,10 @@ button{
     cursor: pointer;
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+    background-color:  rgb(245, 128, 56);
+    transition: 0.5s;
 }
 .container5{
     display: flex;
@@ -158,10 +163,11 @@ footer{
 footer p{
     margin-left: 15%;
 }
-img{
-    width: 600px;
-    height: 10%;
-} 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 
 
 @media ( max-width: 1279px){
@@ -169,7 +175,7 @@ img{
         padding: 30px 2px 16.5% 14px;
     }
     .container2 img, .container3 img{
-        width: 306px;
+        width: 33%;
         margin: 1% 8% 5% 5%;
         height: 427px;
     }   
@@ -212,7 +218,7 @@ img{
         font-size: 32px;
     }
     .container4 p{
-        width: 447px;
+        width: 51%;
         font-size: 20px;
     }
     .container4 button{
@@ -221,7 +227,8 @@ img{
     }
     .container5{
         padding: 8px 46px 22px 102px;
-        width: 773px;
+        /* width: 83.9%; */
+
     }
 }
 @media (max-width: 920px){
@@ -338,10 +345,14 @@ img{
     }
     footer p {
     margin-left: 13%;
-    font-size: 15px;
+    font-size: 13px;
     }
 }
 @media (max-width: 480px){
+     .container1  {     
+        padding: 44px 9px 4% 3px;
+        background-position-x: -76px;
+    }
     .container1 h1 {
         font-size: 43px;
     }
@@ -384,13 +395,17 @@ img{
     }
     .container5 {
         padding: 3px 0px 0px 42px;
-        width: 315px;
+        width: 310px;
     }
     .container5 h2 {
-        margin: 24px 30px 22px 0px;
-        font-size: 11px;
+        margin: 12px 30px 10px 0px;
+        font-size: 10px;
     }
     .container5 a{
+        font-size: 9px;
+    }
+    footer p {
+        margin-left: 13%;
         font-size: 10px;
     }
 
